@@ -1,0 +1,451 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>OnLine and OnMessage Deposition</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="" href="../index.html"/>
+        <link rel="up" title="Data Depository" href="$_02-core-10-deposition.html"/>
+        <link rel="next" title="OnLine Top Down Deposition" href="$_02-core-10-deposition-2-top-down.html"/>
+        <link rel="prev" title="Data Depository" href="$_02-core-10-deposition.html"/> 
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="fa fa-home"> USDA Nutrition Database</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../00_dir/$_00-prologue.html">Prologue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../01_dir/$_01-convention.html">Words and Formats used in Proposal</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../01_dir/$_01-convention-01-words.html">Words Used in Proposal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01_dir/$_01-convention-02-format.html">Format Used in Proposal</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="$_02-core.html">Features - Core</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-01-preview.html">Preview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-02-deliverables.html">Deliverables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-03-training.html">Training and Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-04-rights.html">Property Rights</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-05-plan.html">Project Plan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-06-services.html">Services, Products and Technologies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-07-examples.html">Examples: Production Applications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-08-relationships.html">Generic Verbs and Nouns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-09-user-friendly.html">User Friendly Designs</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="$_02-core-10-deposition.html">Data Depository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-11-mathematics.html">Nutrition Mathematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-12-rest-prov.html">REST Services and Reports</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-13-internationalization.html">International Data and Methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-14-harmonization.html">Information Harmonization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-15-integration.html">Data Integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-16-stakeholders.html">USDA Stakeholder Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-17-infrastructure.html">Infrastructure and Reporting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-18-deployment.html">Deployment Services</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-19-non-composition-data.html">Non-composition Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="$_02-core-20-governance.html">Governance</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../03_dir/$_03-detail.html">Features - Core with Detail</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../03_dir/$_03-detail-1-chemicals.html">Chemicals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_dir/$_03-detail-3-commodities.html">Commodities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_dir/$_03-detail-4-foods.html">Foods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_dir/$_03-detail-5-meals.html">Meals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_dir/$_03-detail-6-methods.html">Nutrition Analysis Methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_dir/$_03-detail-7-mathematics.html">Nutrition Mathematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_dir/$_03-detail-8-depository.html">Data Depository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_dir/$_03-detail-9-technology.html">Technology</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../04_dir/$_04-fda.html">Features - FDA Labeling Specifications</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../04_dir/$_04-fda-1-coverage.html">FDA Food Labeling Specifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../04_dir/$_04-fda-2-allergen.html">FDA Food Allergen Specifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../04_dir/$_04-fda-3-label-claim.html">FDA Food Label Claims Specifications</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../06_dir/$_06-future.html">Features - Future</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../06_dir/$_06-future.html#linked-data">Linked Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../06_dir/$_06-future.html#sparql">SPARQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../06_dir/$_06-future.html#reasoning-and-reasoners">Reasoning and Reasoners</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../07_dir/$_07-glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../10_dir/$_10-term-project.html">Terms related to Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11_dir/$_11-term-ontology.html">Terms imported from Ontologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../13_dir/$_13-bibliography.html">Bibliographies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../13_dir/$_13-bibliography-1-book-food-method.html">Books - Food Analysis Methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../13_dir/$_13-bibliography-2-article-food-method.html">Articles - Food Analysis Methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../13_dir/$_13-bibliography-3-book-food-ref.html">Books - Food</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../13_dir/$_13-bibliography-4-article-food-ref.html">Articles - Food</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../13_dir/$_13-bibliography-5-misc-ontology.html">Resources - Ontologies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../13_dir/$_13-bibliography-6-misc-data.html">Resources - Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../13_dir/$_13-bibliography-7-misc-web.html">Resources - Web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../13_dir/$_13-bibliography-8-article-technology.html">Articles - Technology</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../15_dir/$_15-ontomatica.html">Ontomatica</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../15_dir/$_15-ontomatica-exec-summary.html">Executive Summary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../15_dir/$_15-ontomatica-expertise.html">Ontomatica Expertise</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../12_dir/$_12-epilogue.html">Epilogue</a></li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">USDA Nutrition Database</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="$_02-core.html">Features - Core</a> &raquo;</li>
+      
+          <li><a href="$_02-core-10-deposition.html">Data Depository</a> &raquo;</li>
+      
+    <li>OnLine and OnMessage Deposition</li>
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            
+  <div class="section" id="online-and-onmessage-deposition">
+<span id="core-10-deposition-1-online-onmessage"></span><h1>OnLine and OnMessage Deposition<a class="headerlink" href="#online-and-onmessage-deposition" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="table-of-contents">
+<span id="return-to-top-02-core-10-deposition-1-online-onmessage"></span><h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a></h2>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><a class="reference internal" href="#deposition-workflow" id="id1">Deposition Workflow</a></li>
+<li><a class="reference internal" href="#harmonization-of-gs1-gtin-and-vocal-data" id="id2">Harmonization of GS1, GTIN and Vocal Data</a></li>
+<li><a class="reference internal" href="#integration-of-gs1-gtin-and-vocal-data" id="id3">Integration of GS1, GTIN and Vocal Data</a></li>
+</ul>
+</div>
+<div class="section" id="deposition-workflow">
+<h3><a class="toc-backref" href="#id1">Deposition Workflow</a><a class="headerlink" href="#deposition-workflow" title="Permalink to this headline">¶</a></h3>
+<p>A <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-depositor"><em>depositor</em></a>  registers information via:</p>
+<ol class="arabic simple">
+<li><a class="reference internal" href="../10_dir/$_10-term-project.html#terms-online"><em>OnLine</em></a>  interface, or</li>
+<li><a class="reference internal" href="../10_dir/$_10-term-project.html#terms-onmessage"><em>OnMessage</em></a>  interface.</li>
+</ol>
+<p><a class="reference internal" href="../10_dir/$_10-term-project.html#terms-ontop"><em>OnTop</em></a>  parser interacts with <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-ontology"><em>ontologies</em></a> to properly classify <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-deposit"><em>deposit</em></a>.</p>
+<p><a class="reference internal" href="../10_dir/$_10-term-project.html#terms-usda-select"><em>USDA select</em></a>  and <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-usda-prime"><em>USDA prime</em></a>  data are complemented with data generated by <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-usda-mathematics"><em>USDA mathematics</em></a>.</p>
+<p>Ontomatica <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-graph"><em>graphs</em></a>  (representing things or events, and causal relationships between them) are updated.</p>
+<p>Data then is stored on <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-mysql"><em>MySQL</em></a>  and <a class="reference internal" href="../10_dir/$_10-term-project.html#terms-rest"><em>REST</em></a> servers.</p>
+<div class="figure align-center">
+<img alt="../_images/$_02-core-10-deposition-1-OnLine-OnMessage-1-process_.png" src="../_images/$_02-core-10-deposition-1-OnLine-OnMessage-1-process_.png" />
+</div>
+</div>
+<div class="section" id="harmonization-of-gs1-gtin-and-vocal-data">
+<h3><a class="toc-backref" href="#id2">Harmonization of GS1, GTIN and Vocal Data</a><a class="headerlink" href="#harmonization-of-gs1-gtin-and-vocal-data" title="Permalink to this headline">¶</a></h3>
+<p>Explanation; equivalence <code class="xref py py-class docutils literal"><span class="pre">schema:sameAs</span></code>.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="43%" />
+<col width="57%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">GS1 GPC Classes and Bricks</th>
+<th class="head">Vocal facet term and facet term code</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>Brick attribute: Classification</strong></td>
+<td><strong>Product Type</strong></td>
+</tr>
+<tr class="row-odd"><td>&#8211;</td>
+<td>[A0361]</td>
+</tr>
+<tr class="row-even"><td><em>Family: Fruits; Vegetables; Nuts; Seeds</em></td>
+<td><em>Fruits; Vegetables; Nuts; Seeds</em></td>
+</tr>
+<tr class="row-odd"><td>[50100000]</td>
+<td>[A0987]</td>
+</tr>
+<tr class="row-even"><td><em>Class: Fruit - Prepared; Processed</em></td>
+<td><em>Fruit - Prepared; Processed</em></td>
+</tr>
+<tr class="row-odd"><td>[50102000]</td>
+<td>[A0988]</td>
+</tr>
+<tr class="row-even"><td><em>Brick: Fruit - Prepared; Processed (Perishable)</em></td>
+<td><em>Fruit - Prepared; Processed (Perishable)</em></td>
+</tr>
+<tr class="row-odd"><td>[10000205]</td>
+<td>[A0990]</td>
+</tr>
+<tr class="row-even"><td>~~~</td>
+<td>~~~</td>
+</tr>
+<tr class="row-odd"><td><strong>Brick attribute: Formation</strong></td>
+<td><strong>Physical State, Shape or Form</strong></td>
+</tr>
+<tr class="row-even"><td>[20000352]</td>
+<td>[E0113]</td>
+</tr>
+<tr class="row-odd"><td><em>Chopped</em></td>
+<td><em>Divided into pieces</em></td>
+</tr>
+<tr class="row-even"><td>[30000653]</td>
+<td>[E0100]</td>
+</tr>
+<tr class="row-odd"><td><em>Halved</em></td>
+<td><em>Divided into halves</em></td>
+</tr>
+<tr class="row-even"><td>[30001224]</td>
+<td>[E0116]</td>
+</tr>
+<tr class="row-odd"><td><em>Homogenized</em></td>
+<td><em>Homogenized</em></td>
+</tr>
+<tr class="row-even"><td>[30001266]</td>
+<td>[H0306]</td>
+</tr>
+<tr class="row-odd"><td>~~~</td>
+<td>~~~</td>
+</tr>
+<tr class="row-even"><td><strong>Brick attribute: Organic claim</strong></td>
+<td><strong>Consumer Group, Dietary Use, Label Claim</strong></td>
+</tr>
+<tr class="row-odd"><td>[20000142]</td>
+<td>[P0023]</td>
+</tr>
+<tr class="row-even"><td>&#8211;</td>
+<td><em>Organic food claim or use</em></td>
+</tr>
+<tr class="row-odd"><td>&#8211;</td>
+<td>[P0128]</td>
+</tr>
+<tr class="row-even"><td><em>No</em></td>
+<td>&#8211;</td>
+</tr>
+<tr class="row-odd"><td>[30002960]</td>
+<td>&#8211;</td>
+</tr>
+<tr class="row-even"><td><em>Yes</em></td>
+<td>&#8211;</td>
+</tr>
+<tr class="row-odd"><td>[30002654]</td>
+<td>&#8211;</td>
+</tr>
+<tr class="row-even"><td>~~~</td>
+<td>~~~</td>
+</tr>
+<tr class="row-odd"><td><strong>Brick attribute: If pitted, stoned</strong></td>
+<td><strong>Part of Plant/Fruit</strong></td>
+</tr>
+<tr class="row-even"><td>[20000109]</td>
+<td>[C0167]</td>
+</tr>
+<tr class="row-odd"><td><em>No</em></td>
+<td><em>Fruit, peel undetermined, core, pit or seed present</em></td>
+</tr>
+<tr class="row-even"><td>[30002960]</td>
+<td>[C0163]</td>
+</tr>
+<tr class="row-odd"><td><em>Yes</em></td>
+<td><em>Fruit, peel undetermined, core, pit or seed removed</em></td>
+</tr>
+<tr class="row-even"><td>[30002654]</td>
+<td>[C0213]</td>
+</tr>
+<tr class="row-odd"><td>~~~</td>
+<td>~~~</td>
+</tr>
+<tr class="row-even"><td><strong>Brick attribute: Cooking process</strong></td>
+<td><strong>Preservation Method</strong></td>
+</tr>
+<tr class="row-odd"><td>[20000128]</td>
+<td>[J0107]</td>
+</tr>
+<tr class="row-even"><td><em>Cooked</em></td>
+<td><em>Sterilized by heat</em></td>
+</tr>
+<tr class="row-odd"><td>[30002953]</td>
+<td>[J0123]</td>
+</tr>
+<tr class="row-even"><td><em>Dried</em></td>
+<td><em>Dehydrated or dried</em></td>
+</tr>
+<tr class="row-odd"><td>[30002762]</td>
+<td>[J0116]</td>
+</tr>
+<tr class="row-even"><td><em>Sugared</em></td>
+<td><em>Preserved by adding sugar</em></td>
+</tr>
+<tr class="row-odd"><td>[30002518]</td>
+<td>[J0146]</td>
+</tr>
+<tr class="row-even"><td>~~~</td>
+<td>~~~</td>
+</tr>
+<tr class="row-odd"><td><strong>Brick attribute: Refrigeration claim</strong></td>
+<td><strong>Preservation Method</strong></td>
+</tr>
+<tr class="row-even"><td>[20000153]</td>
+<td>[J0107]</td>
+</tr>
+<tr class="row-odd"><td><em>Can be refrigerated</em></td>
+<td><em>Preserved by chilling</em></td>
+</tr>
+<tr class="row-even"><td>[30000517]</td>
+<td>[J0131]</td>
+</tr>
+<tr class="row-odd"><td><em>Must be refrigerated</em></td>
+<td>&#8211;</td>
+</tr>
+<tr class="row-even"><td>[30000090]</td>
+<td>&#8211;</td>
+</tr>
+<tr class="row-odd"><td>~~~</td>
+<td>~~~</td>
+</tr>
+<tr class="row-even"><td><strong>Brick attribute: Type of fruit</strong></td>
+<td><strong>Fruit Producing Plant</strong></td>
+</tr>
+<tr class="row-odd"><td>[20000076] 103 possible types of fruits</td>
+<td>[B1140]</td>
+</tr>
+<tr class="row-even"><td><em>Apples</em></td>
+<td><em>Apple</em></td>
+</tr>
+<tr class="row-odd"><td>[30003020]</td>
+<td>[B1245]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="integration-of-gs1-gtin-and-vocal-data">
+<h3><a class="toc-backref" href="#id3">Integration of GS1, GTIN and Vocal Data</a><a class="headerlink" href="#integration-of-gs1-gtin-and-vocal-data" title="Permalink to this headline">¶</a></h3>
+<p>OnMessage enables construction of a comprehensive food record that includes bar code information (GTIN) together with GS1 data (Brick codes), Vocal terms and related data.</p>
+<div class="figure align-center">
+<img alt="../_images/$_02-core-10-deposition-1-OnLine-OnMessage-2-GTIN-Vocal_.png" src="../_images/$_02-core-10-deposition-1-OnLine-OnMessage-2-GTIN-Vocal_.png" />
+</div>
+<p><a class="reference internal" href="#return-to-top-02-core-10-deposition-1-online-onmessage"><em>Return to top</em></a></p>
+</div>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="$_02-core-10-deposition-2-top-down.html" class="btn btn-neutral float-right" title="OnLine Top Down Deposition"/>Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="$_02-core-10-deposition.html" class="btn btn-neutral" title="Data Depository"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+    </p>
+  </div>
+
+  <a href="https://github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

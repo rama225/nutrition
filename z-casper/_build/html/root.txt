@@ -1,0 +1,2 @@
+
+Test of inserting text using include

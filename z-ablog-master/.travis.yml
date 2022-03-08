@@ -1,0 +1,12 @@
+language: python
+python:
+  - 2.7
+  - 3.4
+before_install:
+  - pip install Sphinx Werkzeug alabaster invoke
+install:
+  - pip install .
+script:
+  - cd docs; ablog build -T
+  - printf "\nABlog\nABlog Team\nhttp://ablog.readthedocs.org" | ablog start
+  - printf "ablog\nABlog\nABlog Team\nhttp://ablog.readthedocs.org" | ablog start

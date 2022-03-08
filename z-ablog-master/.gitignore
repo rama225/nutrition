@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+MANIFEST
+
+# Distribution / packaging
+build/
+dist/
+demo/
+*.egg-info/
+
+# Sphinx documentation
+docs/_*
+docs/.*
+
+.DS_Store
+
+*~
